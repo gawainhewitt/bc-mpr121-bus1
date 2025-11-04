@@ -6,7 +6,7 @@ https://github.com/BareConductive/mpr121
 
 # For multiple boards:
 
-In the library files, there's a **pre-instantiated global object** created for you. Let me show you where this happens:Perfect! Now let me check the .cpp file to see where it's actually instantiated:Perfect! Now I can explain what's happening:
+In the library files, there's a **pre-instantiated global object** created. If you want to use multiple MPR121 boards then you will need to make your own objects instead.
 
 **In MPR121.h (line 468):**
 ```cpp
